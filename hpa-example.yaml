@@ -29,3 +29,7 @@ spec:
       - type: Percent
         value: 100
         periodSeconds: 15
+      - type: Pods
+        value: 5
+        periodSeconds: 15
+      selectPolicy: Max
